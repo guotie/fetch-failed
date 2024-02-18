@@ -1,0 +1,21 @@
+{
+  "name": "fetch-failed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:bun": "bun run src/token.ts",
+    "dev:node": "tsc -p . && node dist/token.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.9.5",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "react": "^18.2.0"
+  }
+}
